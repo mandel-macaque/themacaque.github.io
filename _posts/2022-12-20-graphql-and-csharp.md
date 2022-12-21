@@ -173,7 +173,7 @@ your life easier, you can use the following query as a starting point:
 
 Query:
 
-```json
+```graphql
 query GetPRs($query: String!, $cursor: String) { 
     search(query:$query type:ISSUE after:$cursor first:100) { 
         issueCount
@@ -242,7 +242,7 @@ query GetPRs($query: String!, $cursor: String) {
 
 Variables (you need to update the values of startDateString, endDateString and repository):
 
-```json
+```graphql
 {
     "query": "created:{startDateString}..{endDateString} is:pr repo:{repository}"
 }
@@ -369,7 +369,7 @@ public record GraphQLEdge<T> {
 Pagination is a pain in any language, any framework in any place.. but it has to be done and your users will be happy about it. Now, how do we deal with 
 pagination in the GraphQL world and GitHub. If you go back to the qeury sample I provided you will notices that I am using a variable called *$cursor*:
 
-```json
+```graphql
 query GetPRs($query: String!, $cursor: String) { 
     search(query:$query type:ISSUE after:$cursor first:100) { 
     }
