@@ -2,7 +2,7 @@
 
 Lately we have been enabling, [step](https://github.com/xamarin/xamarin-macios/pull/15163) by [step](https://github.com/xamarin/xamarin-macios/pull/15162), nullability on xamarin-macios. 
 The idea being that the nullability annotations on our API will help Xamarin iOS and macOS users reduce their runtime issues due to a unexpected NRE (NullReferenceException). 
-But xamarin-macios is special, most of the API is generated from interfaces, which makes the process more complicated.\
+But xamarin-macios is special, most of the API is generated from interfaces, which makes the process more complicated.
 
 ---
 
