@@ -167,7 +167,7 @@ ontroller:presentingViewController:"), presentedViewController__handle__, presen
 This approached worked very very well for those parts of the API we control, and it was great when nullability for reference types did not exist. Yet, the approach before
 nullability had a few annoying corner cases. There is no way to add attributes to the following:
 
-### Generic type detentions
+### Generic type definitions
 
 You cannot do:
 ```csharp
