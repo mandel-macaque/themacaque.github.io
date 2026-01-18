@@ -456,4 +456,11 @@ use Roslyn to enforce semantic checks at compile time. I will also introduce the
 the Microsoft.iOS project as well as how the rgen process was going to be exposed to an MCP to get Copilot to automatically
 generate the bindings for us from the Objective-C headers.
 
-This
+This post sets the foundation. In the next parts, I’ll go deeper into:
+
+- Part 2: Designing the binding contract as a DSL
+- Part 3: Generator architecture and incremental design
+- Part 4: Writing analyzers that enforce semantic rules
+- Part 5: Code fix providers and developer experience
+- Part 6: Testing large Roslyn generators at scale
+- Part 7: Exposing the binding pipeline to tools like Copilot
