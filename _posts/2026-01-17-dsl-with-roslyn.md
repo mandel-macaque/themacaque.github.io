@@ -458,7 +458,7 @@ generate the bindings for us from the Objective-C headers.
 
 This post sets the foundation. In the next parts, I’ll go deeper into:
 
-- Part 2: Designing the binding contract as a DSL
+- [Part 2: Objective-C vs C#: A Conceptual Primer for Bindings](https://www.themacaque.com/2026/01/27/objc-vs-csharp.html)
 - Part 3: Generator architecture and incremental design
 - Part 4: Writing analyzers that enforce semantic rules
 - Part 5: Code fix providers and developer experience
